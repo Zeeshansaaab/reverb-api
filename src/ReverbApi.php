@@ -13,8 +13,10 @@ class ReverbApi
     protected string $key;
     protected string $secret;
 
-    public function __construct(array $config)
+    public function __construct()
     {
+        $config = config('reverb');
+
         $this->scheme = $config['scheme'];
         $this->host   = $config['host'];
         $this->port   = $config['port'];
