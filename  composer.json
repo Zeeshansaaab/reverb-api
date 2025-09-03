@@ -1,6 +1,6 @@
 {
   "name": "zeeshansaaab/reverb-api",
-  "description": "Laravel wrapper for Reverb server API (Pusher compatible).",
+  "description": "Laravel wrapper for Reverb server API (Pusher compatible). ",
   "type": "library",
   "license": "MIT",
   "autoload": {
